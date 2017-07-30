@@ -1,4 +1,5 @@
-#Shutterfly Customer Lifetime Value
+Shutterfly Customer Lifetime Value
+==================================
 
 One way to analyze acquisition strategy and estimate marketing cost is to calculate the Lifetime Value (“LTV”) of a customer. Simply speaking, LTV is the projected revenue that customer will generate during their lifetime.
 
