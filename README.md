@@ -1,8 +1,7 @@
 Shutterfly Code Challenge
 =========================
 
-Problem Description
--------------------
+## [Problem Description](https://github.com/jarrellmark/shutterfly_code_challenge/blob/master/PROBLEM_DESCRIPTION.md)
 
 Installation Instructions
 -------------------------
