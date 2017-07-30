@@ -26,6 +26,15 @@ Installation Instructions
   * Run program
     * `(shutterfly_code_challenge) $ python app.py`
 
+How To Read The Code
+--------------------
+
+* Start with [src/shutterfly_code_challenge/app.py](https://github.com/jarrellmark/shutterfly_code_challenge/blob/master/src/shutterfly_code_challenge/app.py).
+
+* Then look into [src/shutterfly_code_challenge/events](https://github.com/jarrellmark/shutterfly_code_challenge/tree/master/src/shutterfly_code_challenge/events) (start with base_event.py) and [src/shutterfly_code_challenge/lib](https://github.com/jarrellmark/shutterfly_code_challenge/tree/master/src/shutterfly_code_challenge/lib) to see how events are implemented.
+
+* Then look into [src/shutterfly_code_challenge/main/main.py](https://github.com/jarrellmark/shutterfly_code_challenge/blob/master/src/shutterfly_code_challenge/main/main.py) to see how Ingest(e, D) and TopXSimpleLTVCustomers(x, D) are implemented.
+
 External Libraries
 ------------------
 
