@@ -1,0 +1,221 @@
+[
+    {
+        "type": "CUSTOMER",
+        "verb": "NEW",
+        "key": "96f55c7d8f42",
+        "event_time": "2017-01-06T12:46:46.384Z",
+        "last_name": "Smith",
+        "adr_city": "Middletown",
+        "adr_state": "AK"
+    },
+    {
+        "type": "CUSTOMER",
+        "verb": "UPDATE",
+        "key": "96f55c7d8f42",
+        "event_time": "2017-01-08T12:46:46.384Z",
+        "last_name": "Jarrell",
+        "adr_city": "Falls Church"
+    },
+    {
+        "type": "CUSTOMER",
+        "verb": "UPDATE",
+        "key": "96f55c7d8f42",
+        "event_time": "2017-01-01T12:46:46.384Z",
+        "adr_state": "CA"
+    },
+    {
+        "type": "SITE_VISIT",
+        "verb": "NEW",
+        "key": "ac05e815502f",
+        "event_time": "2017-01-01T12:46:46.384Z",
+        "customer_id": "96f55c7d8f42",
+        "tags": [{"key": "value"}]
+    },
+    {
+        "type": "SITE_VISIT",
+        "verb": "NEW",
+        "key": "abc",
+        "event_time": "2017-02-01T12:46:46.384Z",
+        "customer_id": "96f55c7d8f42",
+        "tags": {"key": "value"}
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "68d84e5d1a43",
+        "event_time": "2017-01-06T12:55:55.555Z",
+        "customer_id": "96f55c7d8f42",
+        "total_amount": "56 USD"
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "111111111",
+        "event_time": "2017-01-06T12:54:55.555Z",
+        "customer_id": "96f55c7d8f42",
+        "total_amount": 22
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "22222222",
+        "event_time": "2017-01-16T12:54:55.555Z",
+        "customer_id": "96f55c7d8f42",
+        "total_amount": 40
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "33333333",
+        "event_time": "2017-01-16T12:54:55.555Z",
+        "customer_id": "mark",
+        "total_amount": 20
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "44444444",
+        "event_time": "2017-01-16T12:53:55.555Z",
+        "customer_id": "mark",
+        "total_amount": 40
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "5555555",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "high_value_customer",
+        "total_amount": 4000
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "6666666",
+        "event_time": "2017-01-16T12:53:55.555Z",
+        "customer_id": "high_value_customer",
+        "total_amount": 6000
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "7777777",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "low_value_customer",
+        "total_amount": 1
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "8888888",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "customer_1",
+        "total_amount": 20
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "9999999",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "customer_2",
+        "total_amount": 30
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "10000000",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "customer_3",
+        "total_amount": 40
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "11000000",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "customer_4",
+        "total_amount": 50
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "120000000",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "customer_5",
+        "total_amount": 800
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "1300000",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "customer_6",
+        "total_amount": 20000
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "1400000",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "invalid_no_total_amount"
+    },
+    {
+        "type": "ORDER",
+        "verb": "NEW",
+        "key": "1500000",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "customer_id": "customer_7",
+        "total_amount": "800.2 USD"
+    },
+    {
+        "type": "INVALID",
+        "verb": "NEW",
+        "key": "1",
+        "event_time": "2017-01-06T12:53:55.555Z"
+    },
+    "not even a dictionary",
+    {
+        "type": "CUSTOMER",
+        "verb": "UPDATE",
+        "key": "updated_but_never_inserted",
+        "event_time": "2017-01-07T12:53:55.555Z",
+        "adr_city": "New City",
+        "adr_state": "New State",
+        "ignore": "this_attribute"
+    },
+    {
+        "type": "CUSTOMER",
+        "verb": "UPDATE",
+        "key": "updated_but_never_inserted",
+        "event_time": "2017-01-06T12:53:55.555Z",
+        "last_name": "Last Name",
+        "adr_city": "First City",
+        "adr_state": "First State",
+        "ignore": "this_attribute"
+    },
+    {
+      "type": "IMAGE_UPLOAD",
+      "verb": "UPLOAD",
+      "key": "upload_1",
+      "event_time": "2017-01-06T12:53:55.555Z",
+      "customer_id": "high_value_customer",
+      "camera_make": "Cannon",
+      "camera_model": "G6"
+    },
+    {
+      "type": "IMAGE_UPLOAD",
+      "verb": "UPDATE",
+      "key": "upload_1",
+      "event_time": "2017-01-06T12:53:55.555Z",
+      "customer_id": "high_value_customer",
+      "camera_make": "IMAGE_UPLOAD doesn't have UPDATE"
+    },
+    {
+      "type": "IMAGE_UPLOAD",
+      "verb": "UPLOAD",
+      "key": "upload_2",
+      "event_time": "2017-01-03T12:53:55.555Z",
+      "customer_id": "high_value_customer",
+      "camera_make": "iPhone",
+      "camera_model": "7"
+    }
+]

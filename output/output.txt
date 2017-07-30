@@ -1,0 +1,42 @@
+[
+  {
+    "customer_id": "customer_6",
+    "simple_ltv": 3466666.666666667
+  },
+  {
+    "customer_id": "high_value_customer",
+    "simple_ltv": 1733333.3333333335
+  },
+  {
+    "customer_id": "customer_7",
+    "simple_ltv": 138701.33333333334
+  },
+  {
+    "customer_id": "customer_5",
+    "simple_ltv": 138666.6666666667
+  },
+  {
+    "customer_id": "96f55c7d8f42",
+    "simple_ltv": 13693.333333333332
+  },
+  {
+    "customer_id": "customer_4",
+    "simple_ltv": 8666.666666666668
+  },
+  {
+    "customer_id": "customer_3",
+    "simple_ltv": 6933.333333333334
+  },
+  {
+    "customer_id": "customer_2",
+    "simple_ltv": 5200.0
+  },
+  {
+    "customer_id": "mark",
+    "simple_ltv": 5200.0
+  },
+  {
+    "customer_id": "customer_1",
+    "simple_ltv": 3466.666666666667
+  }
+]
